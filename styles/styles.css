@@ -73,6 +73,11 @@ a:hover {
 }
 
 /* Buttons */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #main-content input[type="button"] {
   padding: 0.6rem 1.6rem;
