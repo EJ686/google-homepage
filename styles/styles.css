@@ -59,6 +59,11 @@ a:hover {
   margin-top: 8.7rem;
 }
 
+/* Form */
+form {
+  position: relative;
+}
+
 /* Searchbar */
 
 #main-content input[type="search"] {
@@ -67,7 +72,16 @@ a:hover {
   display: block;
   width: 580px;
   padding: 0.9rem;
+  text-indent: 40px;
 }
+
+#main-content i {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  color: #8f8f8f;
+}
+
 #main-content input[type="search"]:hover {
   box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.12);
 }
